@@ -1,0 +1,24 @@
+<div>
+    Tələbələr
+</div>
+
+<p-table [value]="student" [tableStyle]="{ 'min-width': '50rem' }">
+    <ng-template pTemplate="header">
+        <tr>
+            <th>Id</th>
+            <th>Nömrəsi</th>
+            <th>Adı</th>
+            <th>Soyadı</th>
+            <th>Sinifi</th>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-student>
+        <tr>
+            <td>{{ student.id }}</td>
+            <td>{{ student.numberNo }}</td>
+            <td>{{ student.name }}</td>
+            <td>{{ student.surname }}</td>
+            <td>{{ student.classNo }}</td>
+        </tr>
+    </ng-template>
+</p-table>

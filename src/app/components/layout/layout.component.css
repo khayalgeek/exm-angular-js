@@ -1,0 +1,21 @@
+.layout-container {
+    display: flex;
+    margin: 10px;
+  }
+  
+  app-sidebar {
+    width: 15%;
+    background-color: #f4f4f4;
+    border-radius:8px ;
+    overflow: hidden;
+    min-height: 100vh; 
+  }
+  
+  .content {
+    flex: 1;
+    padding:0 20px;
+  }
+  
+  main{
+    padding: 20px 0;
+  }

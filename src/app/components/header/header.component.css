@@ -1,0 +1,13 @@
+header{
+    padding-left:1rem ;
+    background-color: #0a66c2;
+    height: 80px;
+    border-top-left-radius:  8px;
+    border-top-right-radius: 8px ;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+header h2{
+    color: #fff;
+}
